@@ -1,0 +1,62 @@
+[
+    {
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+	},
+    {
+        "name": "Humanity",
+        "leaderName": "H. sapiens",
+        "preferredVictoryType": "Neutral",
+
+        "declaringWar": "Your army is weak, and that makes you an easy target!",
+        
+        "attacked": "Don't you dare mess with humanity!",
+        "defeated": "Humanity has surrendered, but one day humanity will come back!",
+
+        "introduction": "Hello! We are humanity.",
+        "neutralHello": "Hello.",
+        "hateHello": "Why?",
+
+        "tradeRequest": "We bestow you the honor of this trade offer.",
+
+        "innerColor": [50, 168, 82],
+        "outerColor": [11, 66, 26],
+
+        "uniqueName": "Mind Curiosity",
+        "uniques": ["[+1 Science] [in all cities]"],
+
+        "cities": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "France",
+            "Spain",
+            "Germany",
+            "China"
+        ]
+    },
+    {
+        "name": "Elves",
+        "leaderName": "Jassin Loraxisys",
+        "preferredVictoryType": "Neutral",
+        "attacked": "Oh no! Help us!",
+        "defeated": "I... surrender...",
+        "introduction": "Hello! We are the good bacteria. Call me Bacillus.",
+        "neutralHello": "Hello.",
+        "hateHello": "Please stop.",
+        "tradeRequest": "This trade could benefit both of us!",
+        "innerColor": [66, 135, 245],
+        "outerColor": [3, 24, 56],
+        "uniqueName": "Good Bacteria",
+        "uniques": [],
+        "cities": [
+            "Lactobacillus"
+        ]
+    },
+    {
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging"]
+	}
+]

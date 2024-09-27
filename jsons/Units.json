@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Settler",
+        "unitType": "Civilian",
+        "cost": 106,
+        "movement": 2,
+        "hurryCostModifier": 20,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ]
+    },
+    {
+        "name": "Warrior",
+        "unitType": "Sword",
+        "cost": 40,
+        "movement": 2,
+        "strength": 8,
+        "hurryCostModifier": 20,
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Worker",
+        "unitType": "Civilian",
+        "cost": 70,
+        "movement": 2,
+        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"]
+    }
+]
